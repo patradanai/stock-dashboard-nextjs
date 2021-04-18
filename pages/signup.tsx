@@ -9,11 +9,13 @@ import GoogleIcon from "../src/components/icons/google";
 const SignUpPage = () => {
   return (
     <div className="w-full min-h-screen bg-gray-200 flex items-center justify-center">
+      {/* Header */}
       <div
-        className="rounded-md bg-white px-24 pt-16 pb-8"
+        className="rounded-md bg-white px-10 sm:px-24 pt-16 pb-8"
         style={{ maxWidth: 680, width: "100%" }}
       >
         <div className="text-center text-4xl">SingUp</div>
+        {/* Form */}
         <Formik
           initialValues={{ email: "", name: "", password: "", repassword: "" }}
           validationSchema={Yup.object().shape({

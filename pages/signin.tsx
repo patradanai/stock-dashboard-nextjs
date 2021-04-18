@@ -9,7 +9,7 @@ const SignInPage = () => {
   return (
     <div className="w-full min-h-screen bg-gray-200 flex items-center justify-center">
       <div
-        className="rounded-md bg-white px-24 pt-16 pb-8"
+        className="rounded-md bg-white px-10 sm:px-24 pt-16 pb-8"
         style={{ maxWidth: 680, width: "100%" }}
       >
         {/* Header */}
