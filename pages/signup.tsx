@@ -1,7 +1,13 @@
 import React from "react";
 
 const SignUpPage = () => {
-  return <h1>SignUpPage</h1>;
+  return (
+    <div className="w-full min-h-screen flex flex-col items-center justify-center">
+      <div className="">
+        <div>SingUp</div>
+      </div>
+    </div>
+  );
 };
 
 export default SignUpPage;
